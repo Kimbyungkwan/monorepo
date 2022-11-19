@@ -4,6 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "build": "lerna run build --parallel",
+    "dev": "lerna run dev --parallel"
+  },
   "workspaces": [
     "packages/*"
   ],

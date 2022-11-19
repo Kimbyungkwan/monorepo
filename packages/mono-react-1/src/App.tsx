@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import reactLogo from './assets/react.svg';
-import { Counter } from '@mono/ui/src';
+import { Counter, Test } from '@mono/ui/src';
 import './App.css';
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
   return (
     <div className='App'>
       <Counter />
+      <Test />
       <div>
         <a href='https://vitejs.dev' target='_blank'>
           <img src='/vite.svg' className='logo' alt='Vite logo' />
