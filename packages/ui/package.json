@@ -1,0 +1,17 @@
+{
+  "name": "@mono/ui",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "files": [
+    "build"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc -w"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
+}
