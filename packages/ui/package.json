@@ -9,7 +9,7 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "start": "tsc -w"
+    "dev": "tsc -w"
   },
   "devDependencies": {
     "typescript": "^4.9.3"
