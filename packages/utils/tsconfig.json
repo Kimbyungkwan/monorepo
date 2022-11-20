@@ -1,13 +1,7 @@
 {
+  "extends": "../../shared-config/utils.tsconfig.json",
   "compilerOptions": {
-    "sourceMap": true,
-    "target": "es6",
-    "module": "commonjs",
     "outDir": "build",
-    "rootDir": ".",
-    "strict": true,
-    "lib": ["esnext"],
-    "moduleResolution": "node",
-    "esModuleInterop": true
+    "rootDir": "."
   }
 }
