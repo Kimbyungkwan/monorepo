@@ -8,7 +8,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "start": "tsc -p . && node dist/app.js",
+    "start": "tsc && node dist/app.js",
     "build": "tsc",
     "dev": "nodemon --exec ts-node app.ts"
   },
